@@ -1,0 +1,17 @@
+{
+  "minify": true,
+  // Optional, configure minifcation options
+  "jsc": {
+    "minify": {
+      "compress": {
+        "unused": true
+      },
+      "mangle": true
+    }
+  },
+  "env": {
+    "targets": "> 2%, last 5 versions",
+    "mode": "entry",
+    "coreJs": 3
+  }
+}
